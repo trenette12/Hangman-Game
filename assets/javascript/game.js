@@ -13,7 +13,7 @@ var theAnswer = [];
 
 	document.getElementById("choice").onkeyup = function() {guessFunction()};
 
-	function guessFunction {
+	function guessFunction() {
 	
 		var takeAGuess = document.getElementById("choice").value;
 
